@@ -75,14 +75,51 @@
 
 // ===== String
 
-let userName = 'Muhammad Ali'
-let message = "You have three new notifications"
+// let userName = 'Muhammad Ali'
+// let message = "You have three new notifications"
 
-console.log(message + ", " + userName +"!")
+// console.log(message + ", " + userName +"!")
 
-let name = "Muhammad Ali"
-let greeting = "Hey! My name is"
+// let name = "Muhammad Ali"
+// let greeting = "Hey! My name is"
 
-let myGreeting = greeting + " " + name
+// let myGreeting = greeting + " " + name
 
-console.log(myGreeting)
+// console.log(myGreeting)
+
+// ================
+let firstName = "Muhammad"
+let lastName = "Ali"
+
+let fullName = firstName + " " + lastName
+
+console.log(fullName)
+
+// ========================
+// let name = "Linda"
+// let greeting = "Hi there, "
+
+// function welcome() {
+//     console.log(greeting + name)
+// }
+
+// welcome()
+
+// ===============
+
+let myPoints = 3
+
+function add3points() {
+    myPoints += 3 
+}
+function remove1point() {
+    myPoints -= 1
+}
+add3points()
+add3points()
+add3points()
+
+remove1point()
+remove1point()
+
+console.log(myPoints)
