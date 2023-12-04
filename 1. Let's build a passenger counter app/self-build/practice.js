@@ -62,13 +62,27 @@
 
 // ==== Another challenge 
 
-let lapsCompleted = 0
+// let lapsCompleted = 0
 
-function lapsIncrement() {
-    lapsCompleted = lapsCompleted + 1
-    console.log(lapsCompleted)
-}
+// function lapsIncrement() {
+//     lapsCompleted = lapsCompleted + 1
+//     console.log(lapsCompleted)
+// }
 
-lapsIncrement()
-lapsIncrement()
-lapsIncrement()
+// lapsIncrement()
+// lapsIncrement()
+// lapsIncrement()
+
+// ===== String
+
+let userName = 'Muhammad Ali'
+let message = "You have three new notifications"
+
+console.log(message + ", " + userName +"!")
+
+let name = "Muhammad Ali"
+let greeting = "Hey! My name is"
+
+let myGreeting = greeting + " " + name
+
+console.log(myGreeting)
