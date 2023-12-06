@@ -14,7 +14,9 @@ body{
     font-style: italic;
 }
 button{
-    padding: 9px 60px;
+    width: 150px;
+    padding: 10px 0;
+    margin-bottom: 8px;
     background-color: goldenrod;
     color: white;
     border: 1px solid black;
