@@ -5,6 +5,16 @@ let hasBlackJack = false
 let isAlive = false
 let message = ""
 
+let player = {
+    name: "Muhammad Ali",
+    chips: "153"
+}
+
+
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.chips
+
 
 let messageEl = document.getElementById("message-el")
 
