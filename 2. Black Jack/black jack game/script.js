@@ -36,7 +36,7 @@ function getRandomCard() {
     let randNumber = Math.floor(Math.random() * 13) + 1
     if (randNumber === 1) {
         return 11
-    } else if (randomNumber >= 11) {
+    } else if (randNumber >= 11) {
         return 10
     } else {
         return randNumber
