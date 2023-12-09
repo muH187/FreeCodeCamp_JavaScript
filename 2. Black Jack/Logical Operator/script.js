@@ -19,3 +19,16 @@ if (hasSolvedChallenge === false && hasHintLeft === false) {
 function showSolution() {
     console.log("Showing  the solutions...")
 }
+
+// ========================================
+
+let likeDocumentaries = true
+let likeStartups = true
+
+if (likeDocumentaries === false || likeStartups === true) {
+    recommendMovie()
+}
+
+function recommendMovie() {
+    console.log("Hey, check out this new film we may think you would like it.")
+}
