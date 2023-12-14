@@ -23,3 +23,15 @@ button {
     font-weight: bold;
     border-radius: 5px;
 }
+
+ul {
+    margin-top: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    margin-bottom: 7px;
+}
+a {
+    color: green;
+}
