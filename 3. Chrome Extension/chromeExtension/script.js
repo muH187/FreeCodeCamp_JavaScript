@@ -10,6 +10,8 @@ inputBtn.addEventListener("click", function() {
     renderLeads()
 })
 
+localStorage.getItem("key", "www.facebook.")
+
 function renderLeads() {
     let listItems = ""
     for (let i = 0; i < myLeads.length; i++) {
